@@ -3,6 +3,8 @@ import SearchIcon from "@mui/icons-material/Search";
 import { Badge, IconButton } from "@mui/material";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import "./Navbar.css";
+import { Avatar } from "@mui/material";
+import { pink } from "@mui/material/colors";
 const Navbar = () => {
   return (
     <div className="px-5 z-50 py-[.8rem] bg-[#e91e63] lg:px-20 flex justify-between">

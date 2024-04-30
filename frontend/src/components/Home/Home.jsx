@@ -1,4 +1,6 @@
 import React from "react";
+import "./Home.css";
+import MultiItemCarousel from "./MultiItemCarousel";
 
 const Home = () => {
   return (
@@ -10,6 +12,12 @@ const Home = () => {
             Taste The Convenience: Food, Fast and Delivered
           </p>
         </div>
+        <div className="cover absolute top-0 left-0 right-0"></div>
+        <div className="fadout"></div>
+      </section>
+      <section className="p-10 lg:py-10 lg:px-20">
+        <p className="text-2xl font-semibold text-gray-400 py-3 pb-10"></p>
+        <MultiItemCarousel />
       </section>
     </div>
   );
