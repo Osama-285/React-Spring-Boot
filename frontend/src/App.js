@@ -9,8 +9,9 @@ function App() {
   return (
     <div className="App">
       <ThemeProvider theme={darkTheme}>
-        <Navbar></Navbar>
         <CssBaseline />
+        <Navbar></Navbar>
+        <Home />
       </ThemeProvider>
     </div>
   );
